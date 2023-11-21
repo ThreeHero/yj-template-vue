@@ -28,7 +28,7 @@ useTitle(projectName)
     }"
     :slideMenu="{ items: menuItem, onClick: jumpPage }"
   >
-    <!-- 动态路由刷新问题 -->
+    <!-- 解决动态路由刷新问题 -->
     <router-view :key="route.path" />
     <template #headerLeftContent>
       <div></div>

@@ -6,5 +6,5 @@ const { params } = route
 </script>
 
 <template>
-  <h2>示例{{ params.id }}</h2>
+  <div>示例{{ params.id }}</div>
 </template>
